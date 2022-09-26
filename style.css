@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background:url(/img/fond.png)
+}
+.maindiv{
+    width: 750px;
+    margin: 0 auto;
+    background-color: white;
+}
+.header{
+    background-color: #b8cb21;
+    height: 123px;
+    text-align: center ;
+    color: black;
+    font-family: "oswald";
+    font-size: 1.3em;
+}
+.mainnav ul li{
+    display: inline;
+    padding: 20px;    
+}
+.mainnav ul li a{
+    color: black;
+}
+.logo{
+    float: left;
+}
+h3{
+   text-transform: uppercase;
+    font-family: "oswald";
+    font-size: 20px;
+     color: #b8cb21;
+     margin-bottom: 10px;
+}
+.who{
+    float: left;
+    width: 40%;
+    margin-right: 10px;
+}
+main{
+    padding: 50px ;
+}
+button{
+    background-color: #b8cb21;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    float: right;
+}
+.div1{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.div1 p{
+    margin-bottom: 10px;
+}
+.div2 p{
+    margin-bottom: 10px;
+}
+.div2 ul li{
+    margin-left: 50px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: small;
+}
+footer img {
+    width: 40px;
+}
+.parent{
+    position: relative;
+}
+.child{
+    position: absolute;
+    right: 40px;
+    top: 45px;
+}
